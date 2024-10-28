@@ -6,7 +6,7 @@ import Inicio from './components/inicio';
 import Galeria from './components/galeria';
 import Nosotros from './components/Nosotros';
 import Contacto from './components/contacto';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes, Navigate } from 'react-router-dom';
 
 
 function App() {
@@ -21,7 +21,8 @@ function App() {
          <Route path="/" element={<Inicio />} />
           <Route path="/galeria" element={<Galeria />} /> 
           <Route path="/Nosotros" element={<Nosotros />} />
-          <Route path="/contacto" element={<Contacto />} />  
+          <Route path="/contacto" element={<Contacto />} /> 
+          <Route path="*" element={<Navigate to="/" />} /> 
         </Routes>
       </main>
       <footer>
