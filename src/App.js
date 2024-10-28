@@ -18,11 +18,10 @@ function App() {
       </header>
       <main style={{ flex: 1 }}>
         <Routes>
+         <Route path="/" element={<Inicio />} />
           <Route path="/galeria" element={<Galeria />} /> 
           <Route path="/Nosotros" element={<Nosotros />} />
           <Route path="/contacto" element={<Contacto />} />  
-          <Route path="/" element={<Inicio />} exact />
-          {/* Agrega más rutas según sea necesario */}
         </Routes>
       </main>
       <footer>

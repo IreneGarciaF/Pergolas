@@ -21,7 +21,7 @@ function AppHeader() {
         <Navbar.Brand className="logo" href="#">
             <img className="logo" src={logo} alt="PC logo"></img>
         </Navbar.Brand>
-        <Navbar.Brand href="#home">Pérgolas Canor</Navbar.Brand>
+        <Navbar.Brand href="/">Pérgolas Canor</Navbar.Brand>
         </Nav>
         <Navbar.Collapse className="navegacion" id="basic-navbar-nav">           
             <Nav className="links">       
