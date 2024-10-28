@@ -22,12 +22,13 @@
 }
 
 .contenedor-nosotros .asterisco-n {
+    border: 1px solid red;
     margin: 4%;
     width: 30px;
     height: 30px;
     position: absolute;
-    top: 15%;
-    right: 50%;
+    top: 14%;
+    right: 48%;
 }
 
 .contenedor-nosotros h3{
