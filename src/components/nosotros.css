@@ -324,7 +324,7 @@
 
 }
 
-@media (max-width: 560px) {
+@media (max-width: 590px) {
     *{
         margin: 0;
         padding: 0;
@@ -345,7 +345,7 @@
     }
 }
 
-@media (max-width: 440px) {
+@media (max-width: 470px) {
     *{
         margin: 0;
         padding: 0;
@@ -366,7 +366,7 @@
     }
 }
 
-@media (max-width: 350px) {
+@media (max-width: 390px) {
     *{
         margin: 0;
         padding: 0;
@@ -385,6 +385,11 @@
         margin-top: 100% !important;
         display: flex;
     }
+    .fila1-nosotros {
+        margin-top: 10% !important;
+    }
 }
+
+
 
 
