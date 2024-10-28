@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Pergolas/static/css/main.9e8666c2.css",
-    "main.js": "/Pergolas/static/js/main.61327016.js",
+    "main.js": "/Pergolas/static/js/main.94a3fcfc.js",
     "static/js/453.2a7acb3b.chunk.js": "/Pergolas/static/js/453.2a7acb3b.chunk.js",
     "static/media/imagen15.webp": "/Pergolas/static/media/imagen15.bf46b46698bb2ab5643c.webp",
     "static/media/imagen19.webp": "/Pergolas/static/media/imagen19.5fcbd45b5b73864727aa.webp",
@@ -36,11 +36,11 @@
     "static/media/imagen4.webp": "/Pergolas/static/media/imagen4.78295eb0faea518f869d.webp",
     "index.html": "/Pergolas/index.html",
     "main.9e8666c2.css.map": "/Pergolas/static/css/main.9e8666c2.css.map",
-    "main.61327016.js.map": "/Pergolas/static/js/main.61327016.js.map",
+    "main.94a3fcfc.js.map": "/Pergolas/static/js/main.94a3fcfc.js.map",
     "453.2a7acb3b.chunk.js.map": "/Pergolas/static/js/453.2a7acb3b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9e8666c2.css",
-    "static/js/main.61327016.js"
+    "static/js/main.94a3fcfc.js"
   ]
 }
