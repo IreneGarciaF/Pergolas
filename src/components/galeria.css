@@ -1,0 +1,279 @@
+
+.galeria {
+    background-color: #424242;
+    margin-top: 6%;
+    box-sizing: border-box;
+}
+
+.container-galeria {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2%;
+    flex-direction: column;   
+}
+
+.fila1 {
+    display: flex;
+    margin-bottom: 1%;
+    justify-content: flex-start;
+    width: 70%;
+}
+
+.f1c1 {
+    width: 100%;
+    height: 50vh;
+}
+.f1c2 {
+    width: 100%;
+    height: 50vh;
+}
+
+.fila2 {
+    display: flex;
+    margin-bottom: 1%;
+    justify-content: space-between;
+    width: 70%;
+    height: fit-content;
+} 
+
+.f2c1 {
+    width: 100%;
+    max-height: 30vh;
+}
+
+.f2c2 {
+    width: 100%;
+    max-height: 30vh;
+}
+
+.f2c3 {
+    width: 100%;
+    max-height: 30vh;
+}
+
+.fila3 {
+    display: flex;
+    margin-bottom: 1%;
+    justify-content: space-between;
+    width: 70%;
+}
+
+.f3c1 {
+    width: 100%;
+    height: 50vh;
+}
+
+.f3c2{
+    width: 100%;
+    height: 25vh;
+    padding-bottom: 1%;
+    border-radius: 10%;
+    object-fit: cover;
+}
+.f3c3 {
+    width: 100%;
+    height: 25vh;
+    border-radius: 10%;
+    object-fit: cover;
+}
+
+.fila4 {
+    display: flex;
+    margin-bottom: 1%;
+    justify-content: space-between;
+    width: 70%;
+}
+
+.f4c1 {
+    width: 100%;
+    height: 50vh;
+}
+
+.f4c2 {
+    width: 100%;
+    height: 50vh;
+}
+
+
+@media (max-width: 1500px) {
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    .container-galeria {
+        padding: 8% !important;  
+    }
+    .fila1, .fila2, .fila3, .fila4 { 
+        width: 100%;
+    }
+     
+}
+
+@media (max-width: 1150px) {
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    .container-galeria {
+        padding: 13% 5% !important;  
+    }
+    .fila1, .fila2, .fila3, .fila4 { 
+        width: 100%;
+    }
+    .f1c1, .f1c2,
+    .f2c1, .f2c2, .f2c3,
+    .f3c1, .f3c2, .f3c3, 
+    .f4c1, .f4c2 {
+        width: 100%;
+        height: auto;
+    }
+     
+}
+
+@media (max-width: 998px) {
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    .container-galeria {
+        padding-top: 20% !important;  
+    }
+     
+    .fila1, .fila2, .fila3, .fila4 { 
+        max-width: 100%;
+    }
+
+    .f1c1, .f1c2,
+    .f2c1, .f2c2, .f2c3,
+    .f3c1, .f3c2, .f3c3, 
+    .f4c1, .f4c2 {
+        width: 90%;
+        height: auto;
+    }
+
+}
+
+@media (max-width: 880px) {
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    .container-galeria {
+        padding-top: 35% !important;
+        justify-content: space-between;
+        gap: 2vh;
+        width: 100% !important;
+    }
+    .fila1, .fila2, .fila3, .fila4 { 
+        width: 100%;
+    }
+    .f1c1, .f1c2,
+    .f2c1, .f2c2, .f2c3,
+    .f3c1, .f3c2, .f3c3, 
+    .f4c1, .f4c2 {
+        width: 90%;
+        height: auto;
+    }
+     
+}
+
+@media (max-width: 770px) {
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    .container-galeria {
+        padding-top: 35% !important;
+        justify-content: space-between;
+        gap: 2vh;
+        width: 100% !important;
+    }
+    .fila1, .fila2, .fila3, .fila4 { 
+        width: 100%;
+    }
+    .f1c1, .f1c2,
+    .f2c1, .f2c2, .f2c3,
+    .f3c1, .f3c2, .f3c3, 
+    .f4c1, .f4c2 {
+        max-width: 90%;
+        height: auto;
+    }
+
+}
+
+@media (max-width: 500px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    .container-galeria {
+        padding-top: 35% !important;
+        justify-content: space-between;
+        gap: 2vh;
+        width: 100% !important;
+    }
+
+    .fila1, .fila2, .fila3, .fila4 {
+        display: flex; 
+        flex-direction: column;
+        width: 100%; 
+    }
+
+  .col-6 {
+        flex: 0 0 auto;
+        width: 100%;
+        padding: 1% 0 !important;
+    }
+    
+    .f1c1 .f1c2,
+    .f2c1, .f2c2, .f2c3,
+    .f3c1, .f3c2, .f3c3, 
+    .f4c1, .f4c2 .col-6{
+        flex: 0 0 auto;
+        width: 100%;
+    }
+
+}
+@media (max-width: 500px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    .container-galeria {
+        padding-top: 45% !important;
+        justify-content: space-between;
+        gap: 2vh;
+        width: 100% !important;
+    }
+
+    .fila1, .fila2, .fila3, .fila4 {
+        display: flex; 
+        flex-direction: column;
+        width: 100%; 
+    }
+
+  .col-6 {
+        flex: 0 0 auto;
+        width: 100%;
+        padding: 1% 0 !important;
+    }
+    
+    .f1c1 .f1c2,
+    .f2c1, .f2c2, .f2c3,
+    .f3c1, .f3c2, .f3c3, 
+    .f4c1, .f4c2 .col-6{
+        flex: 0 0 auto;
+        width: 100%;
+    }
+
+}
