@@ -3,6 +3,7 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import Button from 'react-bootstrap/Button';
+import { Link } from 'react-router-dom';
 
 //Estilo
 import './header.css';
@@ -26,10 +27,10 @@ function AppHeader() {
         <Navbar.Collapse className="navegacion" id="basic-navbar-nav">           
             <Nav className="links">       
             <Nav className="link_nav">
-            <Nav.Link href="/" >Inicio</Nav.Link>
-            <Nav.Link href="/galeria" >Galería</Nav.Link>
-            <Nav.Link href="/Nosotros">Nosotros</Nav.Link>
-            <Nav.Link href="/contacto">Contacto</Nav.Link>
+            <Link className="header-link" to="/" > Inicio </Link>
+            <Link className="header-link" to="/galeria" > Galería </Link>
+            <Link className="header-link" to="/Nosotros"> Nosotros </Link>
+            <Link className="header-link" to="/contacto"> Contacto </Link>
             </Nav>
         <Container className="botones">
         <Navbar className="link-rrss"> 
