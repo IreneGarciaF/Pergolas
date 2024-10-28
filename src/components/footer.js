@@ -63,16 +63,16 @@ function Appfooter() {
             <div className="div-menu">
                 <h5> Menú </h5>
                 <p>
-                <a href="#"> Inicio </a>
+                <a href="/"> Inicio </a>
                 </p>
                 <p>
-                <a href="#"> Galería </a>
+                <a href="/galeria"> Galería </a>
                 </p>
                 <p>
-                <a href="#"> Nosotros </a>
+                <a href="/Nosotros"> Nosotros </a>
                 </p>
                 <p>
-                <a href="#"> Contacto </a>
+                <a href="/contacto"> Contacto </a>
                 </p>
             </div> 
         </Col>
