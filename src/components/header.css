@@ -67,7 +67,6 @@
 
 
 .navbar .link_nav {
-    border: 3px solid red;
     display: flex;
     flex-wrap: wrap;
     margin-left: 18%;
