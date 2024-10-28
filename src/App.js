@@ -6,7 +6,7 @@ import Inicio from './components/inicio';
 import Galeria from './components/galeria';
 import Nosotros from './components/Nosotros';
 import Contacto from './components/contacto';
-import { BrowserRouter as Router, Route, Routes, Navigate } from 'react-router-dom';
+import { HashRouter as Router, Route, Routes, Navigate } from 'react-router-dom';
 
 
 function App() {
